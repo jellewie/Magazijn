@@ -4,6 +4,7 @@ This is a warehouse management system in excel (DUTCH ONLY!)
 If you want to use it feel free, macro's are hidden behind a lock. 
 But if you want to translate, or have a good proposal to change code, feel free to contact.
 
+"Magazijn 2" only support other barcodes
 
 # DUTCH readme notities:
 V5.2
