@@ -4,8 +4,8 @@
 --if "ERROR: Device with name Scanner# not found" than change the below Identifier, Change to '0000AAA' to set manually on each boot
 
                                            --SystemId = \\?\HID#VID_046D&PID_C52B&MI_00#7&  0000AAA  &0&0000#{884B96C3-56EF-11D1-BC8C-00A0C91405DD}
-local IdentifierScanner1 = '1676BF89'	   --Set this value to the ID of this device (can be found in SystemID as shown the line above)
-local IdentifierScanner2 = '2759D1C6'      --3A13826B   2759D1C6
+local IdentifierScanner1 = '0000AAA'	   --Set this value to the ID of this device (can be found in SystemID as shown the line above)
+local IdentifierScanner2 = '0000AAA'       --
 
 
 
