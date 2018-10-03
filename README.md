@@ -8,7 +8,7 @@ But if you want to translate, or have a good proposal to change code, feel free 
 
 "Magazijn 2" supports Multiple Scanners, (V1 is outdated and unsupported)
 
-[MB] = needed Multiple Barcodes support.
+[MB] = For Multiple Barcodes support (so can be skiped).
 
 --------
 # Install
@@ -20,12 +20,12 @@ You should now be able to start with **"Startup"**.
 # Startup
 > 1) [MB] Execute 'MultibleScannersHandler.lua' with the installed '//LuaMacros/LuaMacros.exe'.
 > 2) [MB] Press the blue play button at the left-ish top on the screen.
-> 4) [MB] **If** needed to manually set barcode scanners ID each time (Prompt; "Press a key to indentify device Scanner#"); **Then** do 5 + 6
-> 5) [MB] [opt] Open notepad or something else to type in **so you wont type in this LUA script!!!**.
-> 6) [MB] [opt] Scan something with the scanner (This will bound that scanner to the ID).
-> 7) [MB] Check for errors (EXAMPLE: [LUA] ERROR: Device with name Scanner1 not found) see **"On error"**.
-> 8) Open the Excel file "Magazijn 2.xlsm".
-> 9) Enable the macro's, you should see a pop-up about who made this program if it worked.
+> 3) [MB] **If** needed to manually set barcode scanners ID each time (Prompt; "Press a key to indentify device Scanner#"); **Then** do 4 + 5
+> 4) [MB] [opt] Open notepad or something else to type in **so you wont type in this LUA script!!!**.
+> 5) [MB] [opt] Scan something with the scanner (This will bound that scanner to the ID).
+> 6) [MB] Check for errors (EXAMPLE: [LUA] ERROR: Device with name Scanner1 not found) see **"On error"**.
+> 7) Open the Excel file "Magazijn 2.xlsm".
+> 8) Enable the macro's, you should see a pop-up about who made this program if it worked.
 
 You should now be able to start with **"Scanning"**.
 
