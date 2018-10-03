@@ -94,7 +94,7 @@ Click the sheet 'Momenteel uitgeleend' to get a list of items that are currently
 
 Click in the sheet 'Momenteel uitgeleend' on items to set things ready to Hand In **(this will overwrite UserID of scanner 1! be aware)**
 
-Click in the sheet 'Momenteel uitgeleend' on the UserID, UserName, ItemID or ItemName to sort **This will only sort the data that is currently on this list (so no data that isn't shown because of the cell limits)** (sorting also works in the 'DB') 
+Click in the sheet 'Momenteel uitgeleend' on the UserID, UserName, ItemID or ItemName to sort. **This will only sort the data that is currently on this list (so no data that isn't shown because of the cell limits)** (sorting also works in the 'DB' sheet) 
 
 Click the sheet 'DB uitgeleend' is the DataBase with users and borrowed items, you can color stuff green, or remove stuff (dont leave gaps!)
 
