@@ -8,7 +8,7 @@ But if you want to translate, or have a good proposal to change code, feel free 
 
 "Magazijn 2" supports Multiple Scanners, (V1 is outdated and unsupported)
 
-[MB] = needed Multiple Barcodes support.
+[MB] = For Multiple Barcodes support (so can be skiped).
 
 --------
 # Install
@@ -20,12 +20,12 @@ You should now be able to start with **"Startup"**.
 # Startup
 > 1) [MB] Execute 'MultibleScannersHandler.lua' with the installed '//LuaMacros/LuaMacros.exe'.
 > 2) [MB] Press the blue play button at the left-ish top on the screen.
-> 4) [MB] **If** needed to manually set barcode scanners ID each time (Prompt; "Press a key to indentify device Scanner#"); **Then** do 5 + 6
-> 5) [MB] [opt] Open notepad or something else to type in **so you wont type in this LUA script!!!**.
-> 6) [MB] [opt] Scan something with the scanner (This will bound that scanner to the ID).
-> 7) [MB] Check for errors (EXAMPLE: [LUA] ERROR: Device with name Scanner1 not found) see **"On error"**.
-> 8) Open the Excel file "Magazijn 2.xlsm".
-> 9) Enable the macro's, you should see a pop-up about who made this program if it worked.
+> 3) [MB] **If** needed to manually set barcode scanners ID each time (Prompt; "Press a key to indentify device Scanner#"); **Then** do 4 + 5
+> 4) [MB] [opt] Open notepad or something else to type in **so you wont type in this LUA script!!!**.
+> 5) [MB] [opt] Scan something with the scanner (This will bound that scanner to the ID).
+> 6) [MB] Check for errors (EXAMPLE: [LUA] ERROR: Device with name Scanner1 not found) see **"On error"**.
+> 7) Open the Excel file "Magazijn 2.xlsm".
+> 8) Enable the macro's, you should see a pop-up about who made this program if it worked.
 
 You should now be able to start with **"Scanning"**.
 
@@ -93,6 +93,8 @@ Click UserHas ItemID or ItemName to set things ready for handing in that item
 Click the sheet 'Momenteel uitgeleend' to get a list of items that are currently borrowed. **Scanning only works while the cell SmartInput is selected, so selecting this sheet disables scanners! be aware**
 
 Click in the sheet 'Momenteel uitgeleend' on items to set things ready to Hand In **(this will overwrite UserID of scanner 1! be aware)**
+
+Click in the sheet 'Momenteel uitgeleend' on the UserID, UserName, ItemID or ItemName to sort. **This will only sort the data that is currently on this list (so no data that isn't shown because of the cell limits)** (sorting also works in the 'DB' sheet) 
 
 Click the sheet 'DB uitgeleend' is the DataBase with users and borrowed items, you can color stuff green, or remove stuff (dont leave gaps!)
 
