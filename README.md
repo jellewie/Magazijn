@@ -21,7 +21,7 @@ You should now be able to start with **"Startup"**.
 > 1) [MB] Execute 'MultibleScannersHandler.lua' with the installed '//LuaMacros/LuaMacros.exe'.
 > 2) [MB] Press the blue play button at the left-ish top on the screen.
 > 3) [MB] **If** needed to manually set barcode scanners ID each time (Prompt; "Press a key to indentify device Scanner#"); **Then** do 4 + 5
-> 4) [MB] [opt] Open notepad or something else to type in **so you wont type in this LUA script!!!**.
+> 4) [MB] [opt] Open notepad or something else to type in **so you wont type in this LUA script!!!** ALSO DO NOT USE YOUR KEYBOARD, OR THIS WILL BE SET AS SCANNER1.
 > 5) [MB] [opt] Scan something with the scanner (This will bound that scanner to the ID).
 > 6) [MB] Check for errors (EXAMPLE: [LUA] ERROR: Device with name Scanner1 not found) see **"On error"**.
 > 7) Open the Excel file "Magazijn 2.xlsm".
