@@ -12,7 +12,8 @@ But if you want to translate, or have a good proposal to change code, feel free 
 
 --------
 # Install
-> 1) [MB] Install LuaMacros (or unzip the LuaMacros.zip).
+> 1) [MB] Install 'LuaMacros' (or unzip the LuaMacros.zip).
+> 2) [optional] Install 'code128.ttf' (barcode font) to use the generate barcodes in excel. else these will look like random characters
 
 You should now be able to start with **"Startup"**.
 
