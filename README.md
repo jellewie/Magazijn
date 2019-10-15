@@ -25,7 +25,7 @@ You should now be able to start with **"Startup"**.
 > 4) [MB] [opt] Open notepad or something else to type in **so you wont type in this LUA script!!!** ALSO DO NOT USE YOUR KEYBOARD, OR THIS WILL BE SET AS SCANNER1.
 > 5) [MB] [opt] Scan something with the scanner (This will bound that scanner to the ID).
 > 6) [MB] Check for errors (EXAMPLE: [LUA] ERROR: Device with name Scanner1 not found) see **"On error"**.
-> 7) Open the Excel file "Magazijn 2.xlsm".
+> 7) Open the Excel file "Magazijn 2.xlsm".	(Magazijn.xlsm was the old one and unsupported, single scanner only)
 > 8) Enable the macro's, you should see a pop-up about who made this program if it worked.
 
 You should now be able to start with **"Scanning"**.
